@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { BrowserRouter as Router , Route } from 'react-router-dom';
 import './styles/album-page.css';
-import './styles/artist-page.css';
 import './styles/cards-album.css';
 import './styles/cards.css';
 import './styles/home.css';
@@ -17,6 +16,8 @@ import AlbumPage from './components/AlbumPage';
 function App() {
 
   const [query , setQuery] = useState("eminem")
+
+  if (query === "") setQuery("eminem")
 
   return (
     <Router>

@@ -21,7 +21,7 @@ const SideBar = (props) => (
       <div>
         <i className="bi bi-search icons-color-size" />
       </div>
-      <input onChange={(e) => props.setQuery(e.target.value)} type="search" placeholder="Search..." />
+      <input onChange={(e) => props.setQuery(e.target.value)} type="search" placeholder="Search..."  className="search"/>
     </div>
   </div>
   <div>

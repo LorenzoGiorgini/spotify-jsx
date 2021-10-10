@@ -28,7 +28,7 @@ const Home = (props) => {
       {fetchData && (
         <div className="w-100">
           <NavbarTop />
-          <div className="music-container">
+          <div className="music-home">
             <section id="navbar">
               <div className="container">
                 <GoodMorning fetchData={fetchData} />

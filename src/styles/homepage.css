@@ -361,6 +361,10 @@ li {
   color: white;
 }
 
+/* nav .btn-group .dropdown-menu .dropdown-item:last-child {
+  border-bottom: none;
+}
+ */
 
 .buttons-row {
   display: flex;
@@ -432,3 +436,10 @@ li {
   padding-bottom: 70px;
   background-color: #000000;
 }
+
+/* .container-fluid {
+  background: linear-gradient(45deg, rgb(48, 10, 10) 0%, rgb(22, 23, 26) 100%);
+  background-attachment: fixed;
+  color: white;
+}
+ */
